@@ -239,10 +239,10 @@ button#app-menu-button {
 .mu-text-field-boxed .mu-input-focus-line {
     bottom: 0;
 }
-.mu-input.has-label .mu-input-label {
+.mu-text-field-boxed.mu-input.has-label .mu-input-label {
     transform:translate3d(10px, 20px, 0) scale(0.8);
 }
-.float.mu-input-label {
+.mu-text-field-boxed .float.mu-input-label {
     transform: translate3d(10px, 37px, 0) scale(1)!important;
 }
 </style>
