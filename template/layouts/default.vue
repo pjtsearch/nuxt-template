@@ -245,4 +245,7 @@ button#app-menu-button {
 .mu-text-field-boxed .float.mu-input-label {
     transform: translate3d(10px, 37px, 0) scale(1)!important;
 }
+.mu-text-field-boxed .mu-icon {
+    margin-top: 9px;
+}
 </style>
