@@ -22,12 +22,12 @@
           <mu-list-item-action>
             <mu-icon :value="category.icon"></mu-icon>
           </mu-list-item-action>
-          <mu-list-item-title>{{category.name}}</mu-list-item-title>
+          <mu-list-item-title:v-html="category.name"></mu-list-item-title>
           <mu-list-item-action v-if="category.items !== undefined">
             <mu-icon class="toggle-icon" size="24" value="keyboard_arrow_down"></mu-icon>
           </mu-list-item-action>
           <mu-list-item :key="item.name" v-for="item in category.items" button slot="nested" :to="item.url" class="inner-list-item" v-if="category.items !==undefined" @click="docked === false && category.items === undefined ? dataOpen = false : console.log('clicked')">
-            <mu-list-item-title>{{item.name}}</mu-list-item-title>
+            <mu-list-item-title :v-html="item.name"></mu-list-item-title>
           </mu-list-item>
         </mu-list-item>
       </mu-list>
