@@ -1,6 +1,8 @@
-# Starter
+# nuxt-template-muse
 
-A [Nuxt.js](https://github.com/nuxt/nuxt.js) + [Muse-UI](https://github.com/museui/muse-ui) starter project template without the distraction of a complicated development environment.
+<img src="https://raw.githubusercontent.com/pjtsearch/nuxt-template-muse/images/template-desktop.png"></img>
+
+A modified [Nuxt.js](https://github.com/nuxt/nuxt.js) + [Muse-UI](https://github.com/museui/muse-ui) starter project template without the distraction of a complicated development environment.
 
 ## Prerequisites
 
@@ -45,3 +47,8 @@ $ yarn start
 $ yarn run generate
 ```
  
+### More Screenshots
+
+<img src="https://raw.githubusercontent.com/pjtsearch/nuxt-template-muse/images/template-phone-1.png"></img>
+<br/>
+<img src="https://raw.githubusercontent.com/pjtsearch/nuxt-template-muse/images/template-phone-2.png"></img>
