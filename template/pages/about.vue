@@ -1,6 +1,6 @@
 <template>
 <mu-container>
-  <mu-col span="10">
+  <mu-col>
     <mu-paper :z-depth="2" class="panel">
       <div class="logo">
         <img src="/icon_logo.png"/>

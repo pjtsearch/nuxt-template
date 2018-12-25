@@ -1,6 +1,6 @@
 <template>
 <mu-container>
-  <mu-col span="10">
+  <mu-col>
     <mu-paper :z-depth="2" class="panel">
       <div class="logo">
         <img src="/icon_logo.png"/>
@@ -15,7 +15,6 @@
       <mu-divider />
       <div class="panel-footer">
         <div>
-          <mu-button color="secondary" target="_blank" href="https://nuxtjs.org/" flat>Nuxt Documentation</mu-button>
           <mu-button color="secondary" target="_blank" href="https://github.com/nuxt/nuxt.js" flat>Nuxt GitHub</mu-button>
         </div>
         <mu-button color="primary" to="/about">Continue</mu-button>
