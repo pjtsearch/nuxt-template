@@ -14,7 +14,7 @@ This is a project template for [vue-cli](https://github.com/vuejs/vue-cli).
 $ vue init pjtsearch/nuxt-template-muse my-project  
 $ cd my-project                     
 # install dependencies
-$ npm install # Or yarn install
+$ yarn
 ```
 
 > Make sure to use a version of vue-cli >= 2.1 (`vue -V`).
@@ -25,7 +25,7 @@ $ npm install # Or yarn install
 
 ``` bash
 # serve with hot reloading at localhost:3000
-$ npm run dev
+$ yarn run dev
 ```
 
 Go to [http://localhost:3000](http://localhost:3000)
@@ -34,14 +34,14 @@ Go to [http://localhost:3000](http://localhost:3000)
 
 ``` bash
 # build for production and launch the server
-$ npm run build
-$ npm start
+$ yarn run build
+$ yarn start
 ```
 
 ### Generate
 
 ``` bash
 # generate a static project
-$ npm run generate
+$ yarn run generate
 ```
  
