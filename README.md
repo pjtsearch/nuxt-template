@@ -4,6 +4,9 @@
 
 A modified [Nuxt.js](https://github.com/nuxt/nuxt.js) + [Muse-UI](https://github.com/museui/muse-ui) starter project template without the distraction of a complicated development environment.
 
+Example:
+[https://pjtsearch.github.io/nuxt-template-muse/](https://pjtsearch.github.io/nuxt-template-muse/)
+
 ## Prerequisites
 
 Make sure to have `node 8.0+` and `npm 5.0+` installed
