@@ -1,11 +1,11 @@
 <template>
 <mu-container>
   <mu-col span="10">
-    <mu-paper :z-depth="8" class="panel">
+    <mu-paper :z-depth="2" class="panel">
       <div class="logo">
         <img src="/icon_logo.png"/>
       </div>
-      <p>Abount Page</p>
+      <p>About Page</p>
     </mu-paper>
   </mu-col>
 </mu-container>
@@ -22,6 +22,7 @@
 
 .panel {
   width: 100%;
+  border-radius:7px;
   > p {
     margin: 8px 0;
     line-height: 1.4;
